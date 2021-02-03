@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="converterHeader">Stylight Currency Converter</div>
+        <form action="./" id="currency_form">
+			<p><input type="text" id="EUR"> <span>  &#8364;</span></p>
+			<p><input type="text" id="USD"> <span>  &#36;</span></p>
+			<p><input type="text" id="JPY"> <span>  &#165;</span></p>
+        </form>
+        <table class="searchTable">
+			<caption>Currency conversion History</caption>
+			<thead><th>EUR</th><th>USD</th><th>JPY</th></thead>
+			<tbody id="searchHistory"></tbody>
+		</table>       
+        <!-- Use the `axios` library for making Ajax requests. -->
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <!-- Put your own JavaScript into this file. -->
+    <script type="text/javascript" src="scripts.js"></script>
+    </body>
+</html>

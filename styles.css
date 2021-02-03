@@ -1,0 +1,37 @@
+body{
+    font-family: "helvetica", sans-serif, "Arial";
+	font-weight: lighter;
+	margin:0px;
+}
+.converterHeader{
+    background: #29ceb5;
+	color: #FfFfff;
+    font-size: 30px;
+    padding: 100px 15px;
+    text-align: center;
+}
+#currency_form { 
+	max-width: 300px;
+	margin: 0 auto;
+	font-size: 20px;
+	text-align: center;
+}
+#currency_form input{
+	border-width: 0px 0px 1px;
+	border-color: #808080;
+	font-size: 20px;
+}
+.searchTable {
+	margin: 20px auto;
+	border:1px solid #808080;
+	table-layout: fixed;
+	width:100%;
+	max-width: 300px;
+}
+.searchTable, th, td{
+	border:1px solid #808080;
+	border-collapse: collapse;
+	text-align: center;	
+	font-weight: lighter;
+}
+
