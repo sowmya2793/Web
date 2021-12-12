@@ -7,7 +7,7 @@ var resultRates;
 var historyStored = localStorage.getItem('conversionHistory');
 if(historyStored) { historyTable.innerHTML = historyStored; } else { historyStored=""}
 //API call for currency conversion
-axios.get('http://data.fixer.io/api/latest?access_key=84b95c8bda042263b8948863ac570c63&format=1').then(function(response){
+axios.get('http://data.fixer.io/api/latest?access_key=ed1c55bdaa99f851ca8846737508c556&format=1').then(function(response){
     resultRates = response.data.rates;
     EUR.value = resultRates.EUR;
     USD.value = resultRates.USD;
